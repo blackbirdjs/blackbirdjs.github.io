@@ -1,0 +1,52 @@
+/*html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+* { box-sizing: border-box; }*/
+
+/*.debug-wrap { flex-grow: 1; display: flex; }
+
+.debug-wrap > .contents { flex-basis: 50%; }
+.debug-wrap > .sidebar { 
+  flex-basis: 50%; 
+  background: #555;
+}
+
+.debug-wrap > .sidebar > .explorer {
+  background: #666;
+  padding: 0.5em 1em;
+  height: 50%;
+}
+
+.debug-wrap > .sidebar > .global {
+  padding: 0.5em 1em;
+  height: 50%;
+}
+
+
+.debug {background: #eee;}
+.debug > .preview { padding: 0.5em 1em; }
+.debug > .contents { padding: 0.5em 1em; }
+
+.method { border: 1px solid black; margin-bottom: 0.25em; }*/
+
+/*
+
+.class {} // dangerous
+
+.class .child {} // dangerous
+
+.class > .child {} // fragile
+
+.class .class-child {} // great, but unnecessary
+.class-child {} // single seletor +
+
+MethodView --> Dev_MethodView --> .dev_method {}
+
+*/

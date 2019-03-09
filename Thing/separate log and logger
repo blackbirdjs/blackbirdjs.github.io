@@ -1,0 +1,30 @@
+class Log {}
+
+and
+
+class Logger {}
+
+
+The Thing.Log class would be created for each 'thing' that happens with the object.  Methods, actions, events, property changes, etc - these would all be instances of the Thing.Log.
+
+In this way, you can extend the Log's features, that apply to all of the more specific log instances.
+
+
+
+And the Thing.Logger would be the conductor, that creates the proxy, exports a .log?, acts like the Ctrl?
+
+
+PRE EXTENDING
+
+If you extend a Base class BEFORE everyone else, they get all the changes...
+
+
+For example, if you define a `class Base {}`, and other classes extend from it, they're likely intending on extending from *that* class, right?
+
+Well, what if it's a pre-extendable base class?
+
+It's meant to be a dynamic base.
+
+But, the primary precaution to take here, is not to break anything, which means you can't really interfere with anything...
+
+Can classes depend on pre-extensions?  No, they shouldn't.  They should import them, and extend from them...

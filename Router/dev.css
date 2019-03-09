@@ -1,0 +1,23 @@
+.dev .router {
+	background: hsla(0, 0%, 14%, 1);
+	/* padding: 1.5em; */
+}
+
+.dev .router .name {
+	padding: 0.5em 1em 0.25em;
+	font-weight: bold;
+	/* background: hsla(0, 0%, 10%, 1); */
+}
+
+.dev .router .route {
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+}
+
+.dev .router .route:hover {
+	background: #333;
+}
+
+.dev .router .routes {
+    padding-left: 1em;
+}

@@ -1,0 +1,7 @@
+.dev {position: fixed;top: 0;left: 50%;right: 0;bottom: 0;box-shadow: inset 30px 0px 60px -36px #00000082;background: rgba(0,0,0,0.7);color: #ccc;font-family: arial;font-size: 14px;}
+.dev:not(.active) { display: none; }
+.dev .dev-close-btn {
+	cursor: pointer; background: rgba(0,0,0,0.1);
+}
+
+body.has-dev {/* background: blue; */margin-right: 50%;}

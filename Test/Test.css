@@ -1,0 +1,27 @@
+.test {
+	background: #eee;
+	margin-bottom: 0.5em;
+	/* border: 1px solid #f1f1f1; */
+	--header-bg: #dedede;
+	box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.2);
+}
+.test > .preview {
+	padding: 0.25em 0.5em;
+	cursor: pointer;
+	background: var(--header-bg);
+	/* color: #efefef; */
+	font-size: 13px;
+}
+.test > .contents {
+	padding: 1em;
+	/* border: 2px solid #333; */
+	background: #fff;
+	display: none;
+}
+.test.iso > .preview {
+	font-weight: bold;
+}
+
+.test.active > .contents {
+	display: block;
+}
