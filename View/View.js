@@ -221,7 +221,7 @@ export default class View extends Base {
 
 	toggle(){
 		if (this.styles().display === "none")
-			return this.show();
+			return this.unhide();
 		else {
 			return this.hide();
 		}
